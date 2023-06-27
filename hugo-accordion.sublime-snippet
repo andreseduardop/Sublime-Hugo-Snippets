@@ -1,0 +1,18 @@
+<!-- {{< accordion >}} {{< /accordion >}} -->
+<snippet>
+	<content><![CDATA[
+{{< accordion >}}
+
+  {{< accordion-item
+    collapsed=true
+    title="$1" >}}
+$2
+  {{< /accordion-item >}}
+
+{{< /accordion >}}
+]]></content>
+	<!-- Tab trigger: accordion -->
+	<tabTrigger>accordion</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
